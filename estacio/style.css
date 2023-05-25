@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+   
+}
+
+main {
+    width: 400px;
+    margin: auto;
+    height: 200px;
+    background-color: purple;
+}
+
+a {
+    display: block;
+    color: red;
+    text-align: center;
+
+}
+
+
+.form {
+    margin-top: 30px;
+    background-color: black;
+    height: 100px;
+    padding: 20px;
+
+
+}
+
+.form > .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 70px;
+    
+
+
+}
+.form > .formulario > input {
+    display: block;
+}
